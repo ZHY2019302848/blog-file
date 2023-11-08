@@ -11,7 +11,7 @@ languages:
         title: ZHY の blog
         weight: 1
         params:
-            description: 演示说明
+            description: WOLFFOSSIL
 
 
 # Change it to your Disqus shortname before using
@@ -49,11 +49,11 @@ params:
 
     sidebar:
         emoji: 🍥
-        subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        subtitle: long may the sun shine!🌞
         avatar:
             enabled: true
             local: true
-            src: img/avatar.png
+            src: img/kabi.png
 
     article:
         math: false
@@ -195,9 +195,9 @@ menu:
           params:
               icon: brand-github
 
-        - identifier: bili
-          name: Bili
-          url: https://bilibili.com/
+        - identifier: bilibilibi
+          name: Bilibilibi
+          url: https://space.bilibili.com/345606188?spm_id_from=333.1007.0.0
           params:
                icon: bilibili-line
 

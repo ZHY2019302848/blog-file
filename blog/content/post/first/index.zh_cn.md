@@ -37,4 +37,15 @@ git config --global https.proxy 127.0.0.1:7890 --replace-all
 
 *TEST*
 
-![test](img/test.jpg)
+![](test.jpg)
+
+
+
+*备注*
+
+如果无法正常部署博客到github.io，请使用如下命令
+
+```bash
+hugo -D
+hugo --gc --minify --cleanDestinationDir
+```

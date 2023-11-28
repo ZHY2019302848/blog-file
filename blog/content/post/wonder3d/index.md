@@ -8,9 +8,9 @@ license:
 hidden: false
 comments: true
 draft: false
-slug: 实践
 categories: 
     - 实践
+
 tags:
     - server
 ---

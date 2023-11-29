@@ -7,4 +7,4 @@ menu:
             icon: user
 ---
 
-I am a strom.
+I AM THE STORM THAT IS APPROACHING!

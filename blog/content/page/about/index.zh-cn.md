@@ -7,4 +7,4 @@ menu:
             icon: user
 ---
 
-I AM THE STORM THAT IS APPROACHING!
+<font face="微软雅黑">与其感慨路难行，不如马上出发！</font>

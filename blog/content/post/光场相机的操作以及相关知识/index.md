@@ -35,3 +35,16 @@ categories:
 软件实际上自带有深度图生成，但是其图像总归不是我们所需要的理想状态（完全是一堆乱七八糟五彩光线），所以在师兄的推荐下，尝试使用外部代码解决深度图的生成问题
 
 参考代码:[PlenopticToolbox2.0](https://github.com/freerafiki/PlenopticToolbox2.0)
+
+按照步骤应该先编译一遍python包，输入命令`python setup.py build_ext --inplace`即可，之后会根据你所使用的系统生成一个cpython文件，windows是.pyd,linux是.so,之后记住把该文件复制粘贴到`disparity`文件夹中
+
+之后我们把下载好的图片，选择一张processed图,并把下载的图片文件里的xml文件重名名和你图片相同名字后，复制粘贴到代码目录下，运行以下代码得到深度图：
+
+```cmd
+python disparity_sample.py beer/Beers_Processed.xml -dmin 0 -dmax 10 -scene 'real' -format png
+```
+后面的`format`参数可以改为titf
+
+ 
+
+

@@ -31,19 +31,16 @@ tags:
 ![clash设置](clash.png)
 
 ```bash
-git config --global http.proxy socks5 127.0.0.1:7890 #端口号参考clash
-git config --global https.proxy socks5 127.0.0.1:7890 #端口前面的ip地址参考开clash的主机ip
 
-
-git config --global https.proxy 127.0.0.1:7890
-git config --global https.proxy 127.0.0.1:7890  
+git config --global https.proxy 127.0.0.1:7890 #端口号参考clash
+git config --global http.proxy 127.0.0.1:7890  #端口前面的ip地址参考开clash的主机ip
 ```
 
 如果报错提示不让写入修改，在最后加入`--replace-all`，代码如下
 
 ```bash
 git config --global https.proxy 127.0.0.1:7890 --replace-all
-git config --global https.proxy 127.0.0.1:7890 --replace-all
+git config --global http.proxy 127.0.0.1:7890 --replace-all
 ```
 
 ## 服务器全局设置
